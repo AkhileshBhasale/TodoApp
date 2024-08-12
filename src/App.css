@@ -1,0 +1,65 @@
+h1 {
+    color: #000000;
+    size: 2;
+}
+
+body {
+    background-color: #FEFAF6;
+    background-image: url('assets/LeonardoAI_bg.jpg');
+    background-size: cover;
+}
+
+.card {
+    background-color: #EADBC8;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    margin-bottom: 2rem;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.25rem;
+    padding: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.9;
+}
+
+.group {
+    display: flex;
+    line-height: 30px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    max-width: auto;
+}
+
+.input {
+    width: 100%;
+    height: 45px;
+    font-size:16px;
+    line-height: 30px;
+    padding: 0 2rem;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f8fafc;
+    color: #0d0c22;
+    transition: .5s ease;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto
+}
+  
+.input::placeholder {
+    color: #94a3b8;
+}
+  
+.input:focus, input:hover {
+    outline: none;
+    border-color: rgba(129, 140, 248);
+    background-color: #fff;
+    box-shadow: 0 0 0 5px rgb(129 140 248 / 30%);
+}
